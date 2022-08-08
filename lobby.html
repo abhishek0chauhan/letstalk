@@ -9,8 +9,24 @@
   </head>
   <body>
     <form id="join-form">
-      <input type="text" name="invite_link" required />
-      <input type="submit" value="Join Room" />
+      <div class="form">
+        <div class="title">👋 Welcome</div>
+        <div class="subtitle">Create your room or Join room!</div>
+        <div class="input-container ic1">
+          <input
+            name="invite_link"
+            required
+            class="input"
+            type="text"
+            placeholder=" "
+          />
+          <div class="cut"></div>
+          <label for="firstname" class="placeholder">Room Id</label>
+        </div>
+        <button type="submit" value="Join Room" class="submit">Join</button>
+      </div>
+      <!-- <input type="text" name="invite_link" required />
+      <input type="submit" value="Join Room" /> -->
     </form>
   </body>
 
